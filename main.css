@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: 'Libre Baskerville', serif;
+    font-size: large;
+    font-weight: bolder;
+}
+
+section h2,
+section h3,
+form button{
+    font-family: 'Sawarabi Gothic', sans-serif;
+    font-weight: bold;
+}
+
+body, input, textarea {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #ffce4e;
+    color: #231c21;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a{
+    color: #231c21;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container h1 {
+    margin-right: auto;
+}
+
+header .container img {
+    margin-right: 12px;
+    margin-left: -24px;
+    width: 5%;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list h4 {
+    margin-bottom: 8px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2,
+section h3 {
+    margin-bottom: 16px;
+}
+
+.apointment input,
+button {
+    display: inline;
+    width: 300px;
+    height: 45px;
+    margin-bottom: 16px;
+}
+
+div button {
+    background-color: #ffce4e;
+    color: #231c21;
+    border-radius: 2cm;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+div button:hover {
+    background-color: #e0af00;
+}
+
+section {
+    color: #231c21;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+    margin-top: 8px;
+    width: 50%;
+    border-radius: 1cm;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #ffce4e;
+    color: #231c21;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e0af00;
+}
+
+input:focus, textarea:focus {
+    outline-color: #ffce4e;
+}
+
+footer {
+    background-color: #ffce4e;
+    color: #231c21;
+    padding: 16px 0;
+}
